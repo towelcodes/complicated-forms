@@ -1,0 +1,22 @@
+{
+    "start": "0",
+    "questions": {
+        "0": {
+            "title": "Is the device [invasive]?",
+            "description": "",
+            "format": {
+                    "type": "select",
+                    "multiple": false,
+                    "options": [
+                        "Yes",
+                        "No",
+                        "Maybe"
+                    ]
+            },
+            "next": {
+                "Yes": "2",
+                "default": "end"
+            }
+        }
+    }
+}
